@@ -2,11 +2,12 @@ import { createTheme } from "@mui/material";
 
 const token = {
   primary: {
-    main: "#27295a",
-    light: "#4810ce",
+    main: "#212D57",
+    light: "#3153CD",
   },
   secondary: {
     main: "#ffff",
+    light: "#f0f6f8",
   },
 };
 export const theme = createTheme({
@@ -17,11 +18,12 @@ export const theme = createTheme({
     },
     secondary: {
       main: token.secondary.main,
+      light: token.secondary.light,
     },
   },
   typography: {
     fontFamily: ["Inter", "sans-serif"].join(","),
-    fontSize: 12,
+    fontSize: 10,
     h1: {
       fontFamily: ["Inter", "sans-serif"].join(","),
       color: token.secondary.main,
@@ -51,6 +53,9 @@ export const theme = createTheme({
     h6: {
       fontFamily: ["Inter", "sans-serif"].join(","),
       color: token.secondary.main,
+    },
+    subtitle2: {
+      fontSize: "8px",
     },
   },
 });

@@ -1,12 +1,11 @@
 import FlexBetween from "@/components/FlexBetween";
 import { Avatar, Badge, Box, Typography, useTheme } from "@mui/material";
 import {
-  Pix as PixIcon,
   ExpandMore as ExpandMoreIcon,
   NotificationsNoneOutlined as NotificationsNoneOutlinedIcon,
 } from "@mui/icons-material";
 import { Link } from "react-router-dom";
-
+import logo from "@/assets/logo.png";
 type Props = {};
 
 function Navbar({}: Props) {
@@ -15,9 +14,11 @@ function Navbar({}: Props) {
     <FlexBetween padding="1rem 2rem" bgcolor={palette.primary.main}>
       {/* LEFT SIDE */}
       <FlexBetween gap="0.75rem">
-        <PixIcon sx={{ fontSize: "28px", color: "#ffff" }} />
+        <Box width="50px" height="50px">
+          <img src={logo} width="100%" height="100%" alt="logo" />
+        </Box>
         <Box sx={{ border: "1px solid #ffff", padding: "0 0.1rem" }}>
-          <Typography variant="h6" color="#ffff">
+          <Typography variant="h6" fontWeight={900} color="#ffff">
             BID WINNER
           </Typography>
         </Box>
