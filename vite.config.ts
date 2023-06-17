@@ -14,4 +14,5 @@ export default defineConfig({
       { find: "@", replacement: path.resolve(__dirname, "src") },
     ],
   },
+  base: "/aindriya_machine_test/",
 });

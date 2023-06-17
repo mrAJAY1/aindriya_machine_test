@@ -1,14 +1,12 @@
 import FlexBetween from "@/components/FlexBetween";
-import { Avatar, Badge, Box, Typography, useTheme } from "@mui/material";
+import { Avatar, Badge, Box, Link, Typography, useTheme } from "@mui/material";
 import {
   ExpandMore as ExpandMoreIcon,
   NotificationsNoneOutlined as NotificationsNoneOutlinedIcon,
 } from "@mui/icons-material";
-import { Link } from "react-router-dom";
 import logo from "@/assets/logo.png";
-type Props = {};
 
-function Navbar({}: Props) {
+function Navbar() {
   const { palette } = useTheme();
   return (
     <FlexBetween padding="1rem 2rem" bgcolor={palette.primary.main}>
@@ -25,32 +23,26 @@ function Navbar({}: Props) {
       </FlexBetween>
       <FlexBetween gap="2.5rem">
         <Link
-          to="/"
           style={{ textDecoration: "inherit", color: palette.secondary.main }}>
           Dashboard
         </Link>
         <Link
-          to="/"
           style={{ textDecoration: "inherit", color: palette.secondary.main }}>
           Jobs
         </Link>
         <Link
-          to="/"
           style={{ textDecoration: "inherit", color: palette.secondary.main }}>
           Calendar
         </Link>
         <Link
-          to="/"
           style={{ textDecoration: "inherit", color: palette.secondary.main }}>
           Cost Catalog
         </Link>
         <Link
-          to="/"
           style={{ textDecoration: "inherit", color: palette.secondary.main }}>
           Database
         </Link>
         <Link
-          to="/"
           style={{ textDecoration: "inherit", color: palette.secondary.main }}>
           Tutorials
         </Link>
