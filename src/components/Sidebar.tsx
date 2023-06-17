@@ -6,7 +6,7 @@ type Props = { data: string[] };
 
 const Sidebar = ({ data }: Props) => {
   const { palette } = useTheme();
-  const [selected, setSelected] = useState("Take off");
+  const [selected] = useState("Take off");
   return (
     <Stack width="75px" height="100%" bgcolor="secondary.main">
       <Box
