@@ -22,36 +22,36 @@ export const theme = createTheme({
     },
   },
   typography: {
-    fontFamily: ["Inter", "sans-serif"].join(","),
+    fontFamily: ["Poppins", "sans-serif"].join(","),
     fontSize: 10,
     h1: {
-      fontFamily: ["Inter", "sans-serif"].join(","),
+      fontFamily: ["Poppins", "sans-serif"].join(","),
       color: token.secondary.main,
     },
     h2: {
-      fontFamily: ["Inter", "sans-serif"].join(","),
+      fontFamily: ["Poppins", "sans-serif"].join(","),
       color: token.secondary.main,
     },
     h3: {
-      fontFamily: ["Inter", "sans-serif"].join(","),
+      fontFamily: ["Poppins", "sans-serif"].join(","),
       color: token.secondary.main,
 
       fontWeight: 800,
     },
     h4: {
-      fontFamily: ["Inter", "sans-serif"].join(","),
+      fontFamily: ["Poppins", "sans-serif"].join(","),
       color: token.secondary.main,
 
       fontWeight: 600,
     },
     h5: {
-      fontFamily: ["Inter", "sans-serif"].join(","),
+      fontFamily: ["Poppins", "sans-serif"].join(","),
       color: token.secondary.main,
 
       fontWeight: 400,
     },
     h6: {
-      fontFamily: ["Inter", "sans-serif"].join(","),
+      fontFamily: ["Poppins", "sans-serif"].join(","),
       color: token.secondary.main,
     },
     subtitle2: {
